@@ -1,17 +1,24 @@
 import * as React from 'react';
 import { AppBar, InputAdornment, OutlinedInput, Box, Container, Typography, Grid, Button, Divider, Link } from '@mui/material';
-export default function Events() {
+
+
+  function myfun(){
+    alert('hello');
+  }
+
     
+export default function Events() {
+
+
     return (
        <Container>
-<button onClick={() => {
-  const name = 'James';
-  alert('Hello, ', name);
-}}>
-  Click me!
-</button>
+        <p className="App"/>
+        <h1>click the button</h1>
+        <Button variant='contained' onClick={myfun}></Button>
 
-
+<div>
+  
+</div>
 
        </Container>
     );

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Calculator from './app/calculator';
-import Events from './app/events';
+
+import Billingform1 from './app/billingform1';
 
 
 
@@ -8,15 +8,12 @@ export default function App() {
   return (
 
 <>
-<Events/>
+<Billingform1/>
 
 
 
 
 </>
-
-
-
 
 
 
